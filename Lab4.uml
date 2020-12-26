@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Actions</OriginalElement>
+  <nodes>
+    <node x="0.0" y="104.0">Actions.Current.Filming</node>
+    <node x="360.0" y="183.0">Actions.After.ActionAfter</node>
+    <node x="0.0" y="277.0">Actions.After.Touching</node>
+    <node x="276.0" y="104.0">Actions.Current.Interviewing</node>
+    <node x="636.0" y="702.0">Main.Minute</node>
+    <node x="1006.0" y="529.0">Status.Status</node>
+    <node x="532.0" y="450.0">People.Photographer</node>
+    <node x="883.0" y="613.0">Status.After</node>
+    <node x="138.0" y="104.0">Actions.Current.Wearing</node>
+    <node x="454.0" y="277.0">Actions.After.Hitting</node>
+    <node x="720.0" y="623.0">Actions.Before.Talking</node>
+    <node x="306.0" y="623.0">Actions.Before.Waiting</node>
+    <node x="1314.0" y="104.0">Actions.Current.Waving</node>
+    <node x="148.0" y="277.0">Actions.After.Stepping</node>
+    <node x="148.0" y="623.0">Actions.Before.SettingUp</node>
+    <node x="296.0" y="277.0">Actions.After.Following</node>
+    <node x="730.0" y="277.0">Actions.After.TossingFlower</node>
+    <node x="0.0" y="702.0">Exceptions.NullDrinkRuntimeException</node>
+    <node x="720.0" y="450.0">People.Cosmonaut</node>
+    <node x="343.0" y="702.0">Exceptions.IllegalTimeException</node>
+    <node x="810.0" y="104.0">Actions.Current.Shouting</node>
+    <node x="612.0" y="0.0">Actions.Current.ActionCurrent</node>
+    <node x="1001.0" y="613.0">Status.Current</node>
+    <node x="1106.0" y="104.0">Actions.Current.BlowingWhistle</node>
+    <node x="464.0" y="104.0">Actions.Current.Clapping</node>
+    <node x="0.0" y="623.0">Actions.Before.Standing</node>
+    <node x="325.0" y="356.0">People.People</node>
+    <node x="384.0" y="450.0">People.Reporter</node>
+    <node x="444.0" y="623.0">Actions.Before.Coming</node>
+    <node x="0.0" y="450.0">People.Cameraman</node>
+    <node x="255.99999999999997" y="450.0">People.Police</node>
+    <node x="572.0" y="623.0">Actions.Before.Laughing</node>
+    <node x="592.0" y="277.0">Actions.After.Packing</node>
+    <node x="1139.0" y="613.0">Status.Before</node>
+    <node x="347.5" y="529.0">Actions.Before.ActionBefore</node>
+    <node x="157.99999999999997" y="450.0">People.Fan</node>
+    <node x="612.0" y="104.0">Actions.Current.CleaningCrowd</node>
+    <node x="958.0" y="104.0">Actions.Current.Shooting</node>
+    <node x="789.0" y="702.0">Main.Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="People.Cameraman" target="People.People">
+      <point x="0.0" y="-17.0" />
+      <point x="69.0" y="410.0" />
+      <point x="334.0" y="410.0" />
+      <point x="-45.0" y="17.0" />
+    </edge>
+    <edge source="Actions.Before.Waiting" target="Actions.Before.ActionBefore">
+      <point x="0.0" y="-17.0" />
+      <point x="365.0" y="603.0" />
+      <point x="417.5" y="603.0" />
+      <point x="-14.0" y="17.0" />
+    </edge>
+    <edge source="Status.After" target="Status.Status">
+      <point x="0.0" y="-17.0" />
+      <point x="932.0" y="588.0" />
+      <point x="1024.0" y="588.0" />
+      <point x="-36.0" y="17.0" />
+    </edge>
+    <edge source="Actions.Current.Filming" target="Actions.Current.ActionCurrent">
+      <point x="0.0" y="-17.0" />
+      <point x="59.0" y="54.0" />
+      <point x="621.8888888888889" y="54.0" />
+      <point x="-79.11111111111109" y="17.0" />
+    </edge>
+    <edge source="Actions.After.Stepping" target="Actions.After.ActionAfter">
+      <point x="0.0" y="-17.0" />
+      <point x="212.0" y="247.0" />
+      <point x="399.5" y="247.0" />
+      <point x="-39.5" y="17.0" />
+    </edge>
+    <edge source="Actions.Before.Laughing" target="Actions.Before.ActionBefore">
+      <point x="0.0" y="-17.0" />
+      <point x="636.0" y="593.0" />
+      <point x="473.5" y="593.0" />
+      <point x="42.0" y="17.0" />
+    </edge>
+    <edge source="Actions.After.Packing" target="Actions.After.ActionAfter">
+      <point x="0.0" y="-17.0" />
+      <point x="651.0" y="247.0" />
+      <point x="478.5" y="247.0" />
+      <point x="39.5" y="17.0" />
+    </edge>
+    <edge source="People.Cosmonaut" target="People.People">
+      <point x="0.0" y="-17.0" />
+      <point x="789.0" y="410.0" />
+      <point x="424.0" y="410.0" />
+      <point x="45.0" y="17.0" />
+    </edge>
+    <edge source="People.Police" target="People.People">
+      <point x="0.0" y="-17.0" />
+      <point x="310.0" y="430.0" />
+      <point x="370.0" y="430.0" />
+      <point x="-9.0" y="17.0" />
+    </edge>
+    <edge source="Actions.Before.SettingUp" target="Actions.Before.ActionBefore">
+      <point x="0.0" y="-17.0" />
+      <point x="217.0" y="593.0" />
+      <point x="389.5" y="593.0" />
+      <point x="-42.0" y="17.0" />
+    </edge>
+    <edge source="Actions.Current.Waving" target="Actions.Current.ActionCurrent">
+      <point x="0.0" y="-17.0" />
+      <point x="1368.0" y="54.0" />
+      <point x="780.1111111111111" y="54.0" />
+      <point x="79.11111111111109" y="17.0" />
+    </edge>
+    <edge source="People.Fan" target="People.People">
+      <point x="0.0" y="-17.0" />
+      <point x="196.99999999999997" y="420.0" />
+      <point x="352.0" y="420.0" />
+      <point x="-27.0" y="17.0" />
+    </edge>
+    <edge source="Actions.Current.Shooting" target="Actions.Current.ActionCurrent">
+      <point x="0.0" y="-17.0" />
+      <point x="1022.0" y="74.0" />
+      <point x="740.5555555555555" y="74.0" />
+      <point x="39.55555555555554" y="17.0" />
+    </edge>
+    <edge source="Actions.After.Hitting" target="Actions.After.ActionAfter">
+      <point x="0.0" y="-17.0" />
+      <point x="513.0" y="257.0" />
+      <point x="452.16666666666663" y="257.0" />
+      <point x="13.166666666666629" y="17.0" />
+    </edge>
+    <edge source="Actions.After.Following" target="Actions.After.ActionAfter">
+      <point x="0.0" y="-17.0" />
+      <point x="365.0" y="257.0" />
+      <point x="425.8333333333333" y="257.0" />
+      <point x="-13.166666666666686" y="17.0" />
+    </edge>
+    <edge source="Actions.Current.Clapping" target="Actions.Current.ActionCurrent">
+      <point x="0.0" y="-17.0" />
+      <point x="528.0" y="84.0" />
+      <point x="681.2222222222222" y="84.0" />
+      <point x="-19.77777777777783" y="17.0" />
+    </edge>
+    <edge source="Actions.After.Touching" target="Actions.After.ActionAfter">
+      <point x="0.0" y="-17.0" />
+      <point x="64.0" y="237.0" />
+      <point x="373.1666666666667" y="237.0" />
+      <point x="-65.83333333333331" y="17.0" />
+    </edge>
+    <edge source="Actions.Before.Coming" target="Actions.Before.ActionBefore">
+      <point x="0.0" y="-17.0" />
+      <point x="498.0" y="603.0" />
+      <point x="445.5" y="603.0" />
+      <point x="14.0" y="17.0" />
+    </edge>
+    <edge source="Actions.Current.Wearing" target="Actions.Current.ActionCurrent">
+      <point x="0.0" y="-17.0" />
+      <point x="197.0" y="64.0" />
+      <point x="641.6666666666666" y="64.0" />
+      <point x="-59.33333333333337" y="17.0" />
+    </edge>
+    <edge source="Status.Current" target="Status.Status">
+      <point x="0.0" y="-17.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="Actions.Current.CleaningCrowd" target="Actions.Current.ActionCurrent">
+      <point x="0.0" y="-17.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="Actions.Current.Shouting" target="Actions.Current.ActionCurrent">
+      <point x="0.0" y="-17.0" />
+      <point x="874.0" y="84.0" />
+      <point x="720.7777777777778" y="84.0" />
+      <point x="19.77777777777783" y="17.0" />
+    </edge>
+    <edge source="Actions.After.TossingFlower" target="Actions.After.ActionAfter">
+      <point x="0.0" y="-17.0" />
+      <point x="819.0" y="237.0" />
+      <point x="504.8333333333333" y="237.0" />
+      <point x="65.83333333333331" y="17.0" />
+    </edge>
+    <edge source="Actions.Before.Standing" target="Actions.Before.ActionBefore">
+      <point x="0.0" y="-17.0" />
+      <point x="64.0" y="583.0" />
+      <point x="361.5" y="583.0" />
+      <point x="-70.0" y="17.0" />
+    </edge>
+    <edge source="Actions.Current.BlowingWhistle" target="Actions.Current.ActionCurrent">
+      <point x="0.0" y="-17.0" />
+      <point x="1200.0" y="64.0" />
+      <point x="760.3333333333333" y="64.0" />
+      <point x="59.33333333333326" y="17.0" />
+    </edge>
+    <edge source="Status.Before" target="Status.Status">
+      <point x="0.0" y="-17.0" />
+      <point x="1193.0" y="588.0" />
+      <point x="1096.0" y="588.0" />
+      <point x="36.0" y="17.0" />
+    </edge>
+    <edge source="Actions.Current.Interviewing" target="Actions.Current.ActionCurrent">
+      <point x="0.0" y="-17.0" />
+      <point x="360.0" y="74.0" />
+      <point x="661.4444444444445" y="74.0" />
+      <point x="-39.55555555555554" y="17.0" />
+    </edge>
+    <edge source="People.Reporter" target="People.People">
+      <point x="0.0" y="-17.0" />
+      <point x="448.0" y="430.0" />
+      <point x="388.0" y="430.0" />
+      <point x="9.0" y="17.0" />
+    </edge>
+    <edge source="People.Photographer" target="People.People">
+      <point x="0.0" y="-17.0" />
+      <point x="616.0" y="420.0" />
+      <point x="406.0" y="420.0" />
+      <point x="27.0" y="17.0" />
+    </edge>
+    <edge source="Actions.Before.Talking" target="Actions.Before.ActionBefore">
+      <point x="0.0" y="-17.0" />
+      <point x="779.0" y="583.0" />
+      <point x="501.5" y="583.0" />
+      <point x="70.0" y="17.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.90499306518724" x="711.0" y="368.0" />
+  <SelectedNodes>
+    <node>Actions.Current.Filming</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
